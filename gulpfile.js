@@ -8,11 +8,11 @@ var vinylBuffer = require('vinyl-buffer');
 var plugins = require('gulp-load-plugins')();
 
 var src = {
-	html: 'src/**/*.html',
-	libs: 'src/libs/**',
+	html: 'client/**/*.html',
+	libs: 'client/lib/**',
 	scripts: {
-		all: 'src/scripts/**/*.js',
-		app: 'src/scripts/app.js'
+		all: ['client/app/*.js','client/app/*.*.js','client/pages/*.js'],
+		app: 'client/app/app.js'
 	}
 };
 

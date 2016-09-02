@@ -1,0 +1,25 @@
+{
+  "name": "angular-es6-sample",
+  "description": "A sample how to use Angular 1.x with ECMAScript 6",
+  "main": "gulpfile.js",
+  "authors": [
+    "Tim Roes <mail@timroes.de>"
+  ],
+  "license": "CC0",
+  "keywords": [
+    "angular",
+    "es6"
+  ],
+  "homepage": "https://github.com/ckuh/angular-es6-sample",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.1"
+  }
+}
